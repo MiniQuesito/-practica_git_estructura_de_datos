@@ -16,6 +16,13 @@ public class JavaApplication2 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("hola Mundoooooo, Soyyyy el 작은 치즈");
+        
+        int num1 = 1;
+        int num2 = 2;
+        
+        int result = num1+num2;
+        
+        System.out.print("La suma de: "+ num1 + " y " + num2 + "El Resultado es: " + result); 
     }
     
 }
