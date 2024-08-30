@@ -30,18 +30,44 @@ public class JavaApplication2 {
         *Multiplicación4
         */    
 
+
         //Sumar
 
         //Se imprime un texto para que el usuario ingrese los datos
         System.out.println("Ingrese el primer numero:  ");
-        Float sumando1 = ;
+        //Se crea una variable para almacenar el primer numero
+        int sumando1 = 4;
 
+        //Se crea una variable para almacenar el segundo numero
         System.out.println("Ingrese el segundo numero:  ");
-        float sumando2 = ;
+        //Se crea una variable para almacenar el segundo numero
+        int sumando2 = 9;
 
         //Multiplicar
-        float mult1 = ;
-        float multi= ;
+        int mult1 = 3;
+        int multi= 3;
+
+        Scanner scanner = new Scanner(System.in);
+
+
+        String entradateclado = scanner.nextLine(); 
+
+        System.out.println("El texto que ingreso es: " + entradateclado);
+
+
+        int numero1;
+
+        numero1 = Integer.parseInt(entradateclado);
+
+        int numero2;
+
+        numero2 = Integer.parseInt(entradateclado);
+
+
+        //Se crea una variable para almacenar el resultado de la suma
+        int resultado = numero1 + numero2; 
+        //Se imprime un texto para que el usuario ingre
+        System.out.println("El resultado de los numero ingresados es: " + resultado );
     }
     
 }
