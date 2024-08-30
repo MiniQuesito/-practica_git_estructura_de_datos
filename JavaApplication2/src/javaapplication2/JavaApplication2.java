@@ -23,6 +23,25 @@ public class JavaApplication2 {
         int result = num1+num2;
         
         System.out.print("La suma de: "+ num1 + " y " + num2 + "El Resultado es: " + result); 
+
+        /**
+        * Este programa captura datos de entrada del usuario y  efectua dos operaciones aritmeticas
+        *Una suma
+        *Multiplicación4
+        */    
+
+        //Sumar
+
+        //Se imprime un texto para que el usuario ingrese los datos
+        System.out.println("Ingrese el primer numero:  ");
+        Float sumando1 = ;
+
+        System.out.println("Ingrese el segundo numero:  ");
+        float sumando2 = ;
+
+        //Multiplicar
+        float mult1 = ;
+        float multi= ;
     }
     
 }
